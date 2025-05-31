@@ -1,7 +1,7 @@
 FROM python:3.13-slim-bullseye@sha256:f0acec66ba3578f142b7efc6a3e5ce62a5f51639ea430df576f9249c7baf6ef2
 
 # Install uv
-COPY --from=ghcr.io/astral-sh/uv:latest@sha256:0178a92d156b6f6dbe60e3b52b33b421021f46d634aa9f81f42b91445bb81cdf /uv /bin/uv
+COPY --from=ghcr.io/astral-sh/uv:latest@sha256:563b73ab264117698521303e361fb781a0b421058661b4055750b6c822262d1e /uv /bin/uv
 
 # Copy the application into the container
 COPY . /app
