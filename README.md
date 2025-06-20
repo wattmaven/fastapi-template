@@ -34,12 +34,6 @@ This project uses [Hatch](https://hatch.pypa.io/) for building and releasing.
 # Bump the version
 cz bump --major-version-zero
 
-# Build the package
-uv build
-
-# Release the package
-uv publish
-
 # Push the changes
 git push
 git push -u origin v<new-version>
